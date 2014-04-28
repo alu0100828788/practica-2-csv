@@ -1,0 +1,27 @@
+html *
+{
+   font-size: large; 
+   /* The !important ensures that nothing can override what you've set in this style (unless it is also important). */
+   font-family: Arial;
+}
+
+h1            { text-align: center; font-size: x-large; }
+th, td        { vertical-align: top; text-align: right; }   
+/* #finaltable  * { color: red; background-color: black; }   */
+
+/* #finaltable table { border-collapse:collapse; } */
+/* #finaltable table, td { border:1px solid white; } */
+#finaltable:hover td { background-color: white; } 
+tr:nth-child(odd)    { background-color: red; }
+tr:nth-child(even)    { background-color:#eee; }
+input        { text-align: right;  border: solid;       }     /* Align input to the right  */
+textarea     { border: outset; border-color: white;      }                        
+table        { border: inset; border-color: green; }
+table.center { margin-left:auto; margin-right:auto; }
+#result      { border-color: yellow; }
+tr.error       { background-color: red; }
+body
+{
+ //background-color:#FFF9A1;  /* light yellow */
+ background-image:url('image.jpg')
+}
