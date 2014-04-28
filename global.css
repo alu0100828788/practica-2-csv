@@ -1,6 +1,6 @@
 html *
 {
-   font-size: large; 
+   font-size: x-large; 
    /* The !important ensures that nothing can override what you've set in this style (unless it is also important). */
    font-family: Arial;
 }
