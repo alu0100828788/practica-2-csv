@@ -6,9 +6,9 @@ html *
 }
 
 h1            { text-align: center; font-size: 40px; }
-p              {font-size:75;color: yellow;font-weight:bold;}
+p              {font-size:50;color: yellow;font-weight:bold;}
 th, td        { vertical-align: top; text-align: right; }   
-/* #finaltable  * { color: red; background-color: black; }   */
+/* #finaltable  * { color: red; background-color: white; }   */
 
 /* #finaltable table { border-collapse:collapse; } */
 /* #finaltable table, td { border:1px solid white; } */
